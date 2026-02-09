@@ -3,7 +3,21 @@
 [![Last Commit][last-commit-shield]][last-commit-url]
 [![Repo Size][repo-size-shield]][repo-size-url]
 [![Language][language-shield]][python-url]
+[![License][license-shield]][license-url]
 [![Author][author-shield]][author-url]
+
+
+
+## Table of Contents
+1. [Overview](#overview)
+2. [Features](#features)
+3. [Requirements](#requirements)
+4. [Files](#files)
+5. [Step-by-Step Instructions](#step-by-step-instructions)
+6. [Helpful Links](#helpful-links)
+7. [License](#license)
+
+---
 
 ## Overview
 This project provides tools to generate and modify crafting cost overrides for **ARK: Survival Evolved**. It allows you to extract structures from the game, edit crafting costs in JSON format, and generate ready-to-use `overrides.ini` files for your `Game.ini`.
@@ -16,7 +30,7 @@ This project provides tools to generate and modify crafting cost overrides for *
 - Reverse-engineers existing overrides
 
 
-## Requirements / Dependencies
+## Requirements
 - python
 
 
@@ -123,6 +137,9 @@ This project is licensed under the CC BY-NC-SA 4.0 License - see [LICENSE](LICEN
 [repo-size-url]: https://github.com/erikpersson0884/ark
 [author-shield]: https://img.shields.io/badge/Author-Erik%20Persson-blue?style=for-the-badge
 [author-url]: https://github.com/erikpersson0884
+[license-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey?style=for-the-badge
+[license-url]: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
 
 <!-- Frameworks & Languages Shields -->
 [language-shield]: https://img.shields.io/badge/Language-Python-306998?style=for-the-badge

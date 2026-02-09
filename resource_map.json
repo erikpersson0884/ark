@@ -1,0 +1,19 @@
+{
+  "PrimalItemResource_Wood_C": "Wood",
+  "PrimalItemResource_Thatch_C": "Thatch",
+  "PrimalItemResource_Fiber_C": "Fiber",
+  "PrimalItemResource_Stone_C": "Stone",
+  "PrimalItemResource_MetalIngot_C": "Metal",
+  "PrimalItemResource_CementPaste_C": "Cement",
+  "PrimalItemResource_Polymer_C": "Polymer",
+  "PrimalItemResource_Crystal_C": "Crystal",
+  "PrimalItemResource_Electronics_C": "Electronics",
+  "PrimalItemResource_Narcotic_C": "Narcotic",
+  "PrimalItemResource_Gunpowder_C": "Gunpowder",
+  "PrimalItemResource_Obsidian_C": "Obsidian",
+  "PrimalItemResource_Hide_C": "Hide",
+  "PrimalItemResource_BlackPearl_C": "BlackPearl",
+  "PrimalItemResource_Chitin_C": "Chitin",
+  "PrimalItemAmmo_SimpleBullet_C": "SimpleBullet",
+  "PrimalItemAmmo_SimpleRifleBullet_C": "SimpleRifleBullet"
+}

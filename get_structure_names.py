@@ -1,8 +1,8 @@
 import os
 
-keywords = ("stone", "wood", "metal")
+keywords = []
 output_file = "found_structures.txt"
-root_directory = "."
+root_directory = r"."
 
 
 def collect_all_structures_files(root_dir):
@@ -17,12 +17,10 @@ def filter_wanted_files(filenames):
         if any(k in name.lower() for k in keywords):
             yield name
 
-
 def replace_uasset(name):
     if name.lower().endswith(".uasset"):
         return name[:-7] + "_C"
     return name
-
 
 def rewrite_filesnames_to_structures(filenames):
     return [replace_uasset(name) for name in filenames]
@@ -43,8 +41,9 @@ def print_results(structures):
 
 def main():
     files = collect_all_structures_files(root_directory)
-    filtered_files = filter_wanted_files(files)
-    structures = rewrite_filesnames_to_structures(filtered_files)
+    if len(keywords) > 0:
+        files = filter_wanted_files(files)
+    structures = rewrite_filesnames_to_structures(files)
     save_to_file(structures)
     print_results(structures)
 
